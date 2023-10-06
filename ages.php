@@ -43,7 +43,7 @@ function dates_shortcode($atts) {
 }
 
 Joomla\CMS\Plugin\CMSPlugin::addShortcode('ages', 'shortcode_ages');
-Joomla\CMS\Plugin\CMSPlugin::addShortcode('dates', 'shortcode_ages');
+Joomla\CMS\Plugin\CMSPlugin::addShortcode('dates', 'shortcode_dates');
 Joomla\CMS\Plugin\CMSPlugin::addPlugin('ages', 'content');
 Joomla\CMS\Plugin\CMSPlugin::addPlugin('dates', 'content');
 
