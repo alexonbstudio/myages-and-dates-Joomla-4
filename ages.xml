@@ -1,0 +1,17 @@
+<extension version="4.0" type="plugin" group="content" method="upgrade">
+    <name>ages-and-dates</name>
+    <author>Alexon Balangue</author>
+    <version>1.0</version>
+    <description>Show current dates and add your age for birthday or your experience jobs</description>
+    <!-- Autres balises d'informations -->
+    <files>
+        <filename plugin="ages-and-dates">ages.php</filename>
+        <filename>ages.xml</filename>
+    </files>
+    <config>
+    <fields name="params">
+        <fieldset name="basic">
+        </fieldset>
+    </fields>
+    </config>
+</extension>
